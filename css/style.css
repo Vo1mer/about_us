@@ -1,0 +1,274 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.ba-grid-two{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 30px;
+}
+.ba-grid-one{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.ba-grid-three{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 186px 140px;
+	margin: 0 80px 145px 80px;
+	column-gap: 30px;
+}
+.ba-grid-four{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 335px 335px;
+	row-gap: 30px;
+	margin-bottom: 30px;
+}
+
+
+.header-grid{
+	width: 100%;
+	margin: 0 auto 150px auto;
+	display: grid;
+	background: url("../images/Layer 4.png") no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+	padding: 45px 80px;
+	color: #60606e;
+}
+.grid-header-row{
+	width: 100%;
+}
+.iconMenu{
+	text-align: right;
+}
+.titleHeader{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+.main-grid{
+	padding: 0 80px;
+	color: #60606e;
+	margin-bottom: 160px;
+}
+
+.mainBlockTitle{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+	text-transform: uppercase;
+	position: relative;
+
+}
+.mainBlockTitle:before{
+	width: 70px;
+	height: 20px;
+	background-color: #7beec7;
+	position: absolute;
+	top: 22px; left: 0;
+	content: "";
+	z-index: -1;
+}
+
+.mainBlockSubtitle{
+	margin-bottom: 30px;
+	color: #60606e;
+	font-family: 'Open Sans - Extrabold', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.mainBlockText{
+	color: #60606e;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.benefitTitle .mainBlockTitle:before{
+	width: 70px;
+	height: 20px;
+	background-color: #7beec7;
+	position: absolute;
+	top: 22px; left: auto;
+	content: "";
+	z-index: -1;
+}
+.benefitTitle{
+	text-align: center;
+	color: #60606e;
+	margin-bottom: 100px;
+}
+.benefit{
+	display: inline-block;
+	position: relative;
+	color: #60606e;
+}
+.iconResponsive{
+	background: url("../images/item_benefit_responsive.png") center center no-repeat, rgb(123, 238, 199);
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin: 0 20px 20px 0;
+
+}
+.iconOption{
+	background: url("../images/item_benefit_options.png") center center no-repeat, rgb(123, 238, 199);
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin: 0 20px 20px 0;
+}
+.iconWordpres{
+	background: url("../images/item_benefit_wordpres.png") center center no-repeat, rgb(123, 238, 199);
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin: 0 20px 20px 0;
+}
+.iconCommerce{
+	background: url("../images/item_benefit_commerce.png") center center no-repeat, rgb(123, 238, 199);
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin: 0 20px 20px 0;
+}
+.iconDesign{
+	background: url("../images/item_benefit_custDesign.png") center center no-repeat, rgb(123, 238, 199);
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin: 0 20px 20px 0;
+}
+.iconSupport{
+	background: url("../images/item_benefit_support.png") center center no-repeat, rgb(123, 238, 199);
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin: 0 20px 20px 0;
+}
+.benefit > h3{
+	display: inline-block;
+	position: absolute;
+	top: 7px;
+	text-transform: uppercase;
+}
+
+.teamTitle{
+	text-align: center;
+	color: #60606e;
+	margin-bottom: 100px;
+}
+.teamTitle .mainBlockTitle:before{
+	width: 70px;
+	height: 20px;
+	background-color: #7beec7;
+	position: absolute;
+	top: 22px; left: auto;
+	content: "";
+	z-index: -1;
+}
+.team1{
+	background: url("../images/team1.jpg") center center no-repeat;
+}
+.team2{
+	background: url("../images/team2.jpg") center center no-repeat;
+}
+.team3{
+	background: url("../images/team3.jpg") center center no-repeat;
+}
+.team4{
+	background: url("../images/team4.jpg") center center no-repeat;
+}
+.team5{
+	background: url("../images/team5.jpg") center center no-repeat;
+}
+.team6{
+	background: url("../images/team6.jpg") center center no-repeat;
+}
+.team7{
+	background: url("../images/team7.jpg") center center no-repeat;
+}
+.team8{
+	background: url("../images/team8.jpg") center center no-repeat;
+}
+
+.ba-footer{
+	height: 330px;
+	width: 100%;
+	background-color: #7beec7;
+	padding: 50px 80px;
+}
+.footerLeft__title h2{
+	color: #ffffff;
+	line-height: 48px;
+	font-size: 30px;
+}
+.footerLeft__title{
+	width: 165px;
+	height: 50px;
+	background-color: #ffffff;
+}
