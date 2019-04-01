@@ -84,7 +84,6 @@ textarea {
 	margin-bottom: 30px;
 }
 
-
 .header-grid{
 	width: 100%;
 	margin: 0 auto 150px auto;
@@ -266,9 +265,76 @@ textarea {
 	color: #ffffff;
 	line-height: 48px;
 	font-size: 30px;
+	margin-bottom: 30px;
 }
 .footerLeft__title{
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+}
+.footerLeft__title a{
+	text-decoration: none;
 	width: 165px;
 	height: 50px;
+	color: #7beec7;
 	background-color: #ffffff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 20px 30px;
+}
+form{
+	background-color: #ffffff;
+	width: 555px;
+	height: 230px;
+	padding: 20px;
+}
+form h2{
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 36px;
+	color: #60606e;
+	margin-bottom: 20px;
+}
+form p{
+	color: #999999;
+	font-size: 16px;
+	line-height: 24px;
+
+}
+.sendData{
+	display: inline-block;
+	height: 50px;
+	width: 100%;
+	position: relative;
+}
+.emailField{
+	height: 50px;
+	width: 380px;
+	border: 1px solid #e5e5e5;
+	border-right: none;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 48px;
+	padding: 0 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.emailField::placeholder{
+	color: #cdcdcd;
+}
+.buttonSend{
+	background: #7beec7;
+	width: 135px;
+	height: 50px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 48px;
+	text-transform: uppercase;
+	border: none;
+	position: absolute;
+	top: 0; right: 0;
+	color: #ffffff;
 }
